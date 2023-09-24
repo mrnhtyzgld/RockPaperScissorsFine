@@ -20,9 +20,11 @@ import java.util.Random;
         The solution to the movement algorithm of items is converted to int.
             -it needs to be float
 
-        The programs' "move sgn from hunter & move sgn to prey" algorithm at line 141 can be better.
+        The programs' "move sgn from hunter & move sgn to prey" algorithm at line 143 can be better.
 
         The Program finds weighted aproximity of all items, but there should be an option to only focus on closest n items.
+        _____________
+        There are also small bugs, I think threads die when encounter a bug and because of that items tend to move upper left corner. But I might be wrong.
 */
 
 
